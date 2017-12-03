@@ -14,6 +14,4 @@ class Person extends Componet {
     }
 } 
 
-
-
 export default Person;
