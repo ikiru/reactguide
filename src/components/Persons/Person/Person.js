@@ -31,6 +31,12 @@ class Person extends Component {
         console.log('====================================');
     }
 
+    shouldComponentUpdate(nextProps){
+        console.log('====================================');
+        console.log('[UPDATE Person.js] Inside shouldComponentUpdate', nextProps, nextState);
+        console.log('====================================');
+    }
+
     render() {
         console.log('====================================');
         console.log('[Person.js] inside render ()');
