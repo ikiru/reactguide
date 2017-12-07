@@ -4,6 +4,9 @@ import classes from './App.css';
 import Persons from '../components/Persons/Persons';
 import Cockpit from '../components/Cockpit/Cockpit';
 
+
+// here are some notes
+
 class App extends Component {
 constructor(props){
   super(props);
