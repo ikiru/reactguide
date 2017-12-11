@@ -27,18 +27,26 @@ class App extends Component {
     console.log( '[App.js] Inside componentDidMount()' );
   }
 
-  shouldComponentUpdate ( nextProps, nextState ) {
-    console.log( '[UPDATE App.js] Inside shouldComponentUpdate', nextProps, nextState );
+
+
+  shouldComponentUpdate(nextProps,nextState){
+    console.log('====================================');
+    console.log('[UPDATE App.js] Inside shouldComponentUpdate', nextProps, nextState);
+    console.log('====================================');
     return true;
-  }
+}
 
-  componentWillUpdate ( nextProps, nextState ) {
-    console.log( '[UPDATE App.js] Inside componentWillUpdate', nextProps, nextState );
-  }
+componentWillUpdate(nextProps, nextState){
+    console.log('====================================');
+    console.log('[UPDATE App.js] Inside componentWillUpdate', nextProps, nextState);
+    console.log('====================================');
+}
 
-  componentDidUpdate () {
-    console.log( '[UPDATE App.js] Inside componentDidUpdate' );
-  }
+componentDidUpdate(){
+    console.log('====================================');
+    console.log('[UPDATE App.js] Inside componentDidUpdate');
+    console.log('====================================');
+}
 
   // state = {
   //   persons: [
